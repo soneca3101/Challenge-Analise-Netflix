@@ -1,0 +1,13 @@
+backend:
+    functions:
+        - entry: index.py
+          handler: handler
+          name: hello-world-function
+          path: ./
+    language:
+        name: python
+        packageManager: pip
+    path: ./
+name: Desafio-Analise-Netflix
+region: us-east-1
+yamlVersion: 2
