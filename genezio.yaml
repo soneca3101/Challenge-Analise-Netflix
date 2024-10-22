@@ -1,8 +1,8 @@
 backend:
     functions:
-        - entry: index.py
+        - entry: main.py
           handler: handler
-          name: hello-world-function
+          name: desafio_analise
           path: ./
     language:
         name: python
